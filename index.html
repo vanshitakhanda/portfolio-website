@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(9, 17, 65);
+            color: white;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(2, 2, 44);
+        }
+        .left{
+            display: flex;
+            
+        }
+        nav .img-dev{
+            width: 23px;
+            margin: 0 10px;
+            border-radius:100% ;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            
+            color:rgb(117, 117, 239);
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(128, 128, 241);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .left{
+            font-size: 2rem;
+        }
+
+
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+        .firstsection > div{
+            width: 30%;
+        }
+        .leftsection{
+            font-size: 2.5rem;
+            }
+
+         .leftsection .button{
+            padding: 8px;
+            background-color: rgb(53, 53, 151);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-top: 20px;
+         }   
+        .rightsection img{
+            width: 80%;
+            margin: 50px 0;
+        }
+        .purple{
+            color: rgb(158, 85, 226);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: rgb(158, 85, 226);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1{
+            font-size: 1.8rem;
+        }
+        .secondSection .box{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 73px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .img-top{
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-text{
+            position: relative;
+            top: 55px;
+            width: 150px;
+            right: 25px;
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 75px;
+            color: gray;
+            width: 150px;
+            right: 25px;
+
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: rgb(8, 2, 14);
+            /* height: 233px; */
+        }
+
+        .footer{
+            display: flex;
+            padding: 22px 123px;
+            justify-content: space-evenly;
+            
+        }
+        /* .footer ul li{
+            list-style: none;
+            
+        } */
+        .footer-second ul li a{
+            text-decoration: none;
+        }
+
+        footer .text-center{
+            color: gray;
+            text-align: center;
+            padding: 12px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            
+            <div class="left"> 
+                <img class="img-dev" src="./developer_male.jpg" alt="">
+                <h5>Vanshita's Portfolio</h5>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii, I am <span class="purple">Vanshita</span>
+                <div>
+                    And I am a passionate
+                
+                <span id="element"></span>
+            </div>
+            <button class="button">Download Resume</button>
+            </div>
+            <div class="rightsection">
+            <img src="./right.png" alt="Portfolio">
+
+            </div>
+        </section>
+ <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+          <h1>Work Experience</h1> 
+          <div class="box">
+             <div class="vertical">
+                <img class="img-top" src="./htmllogo.png" alt="">
+                <div class="vertical-text">HTML developer</div>
+                <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi expedita nam explicabo alias corrupti sed inventore error, dicta quasi rerum quam non sequi, omnis aspernatur at. Quisquam excepturi unde, eligendi tempore corporis repellat aspernatur similique!</div>
+             </div>
+             <div class="vertical">
+                <img class="img-top" src="./CSS3_logo.svg.png" alt="">
+                <div class="vertical-text">CSS developer</div>
+                <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi expedita nam explicabo alias corrupti sed inventore error, dicta quasi rerum quam non sequi, omnis aspernatur at. Quisquam excepturi unde, eligendi tempore corporis repellat aspernatur similique!</div>
+             </div>
+             <div class="vertical">
+                <img class="img-top" src="./png-clipart-javascript-scalable-graphics-logo-encapsulated-postscript-javascript-icon-text-logo-thumbnail.png" alt="">
+                <div class="vertical-text">JavaScript developer</div>
+                <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi expedita nam explicabo alias corrupti sed inventore error, dicta quasi rerum quam non sequi, omnis aspernatur at. Quisquam excepturi unde, eligendi tempore corporis repellat aspernatur similique!</div>
+             </div>
+             <div class="vertical">
+                <img class="img-top" src="./png-transparent-react-computer-icons-redux-javascript-others-logo-symmetry-nodejs-thumbnail.png" alt="">
+                <div class="vertical-text">React.js developer</div>
+                <div class="vertical-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi expedita nam explicabo alias corrupti sed inventore error, dicta quasi rerum quam non sequi, omnis aspernatur at. Quisquam excepturi unde, eligendi tempore corporis repellat aspernatur similique!</div>
+             </div>
+          </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Vanshita's Developer portfolio </h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Mail</a></li>
+                    <li><a href="/">Linkedin</a></li>
+                    <li><a href="/">GitHub</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+         <div class="text-center">
+            www.vanshitasportfolio.com | All Rights Reserved
+         </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic designer', 'Video Editor','Web designer'],
+          typeSpeed: 50,
+        });
+      </script>
+    </body>
+</body>
+</html>
